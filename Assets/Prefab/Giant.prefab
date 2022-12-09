@@ -148,7 +148,7 @@ MonoBehaviour:
   smallrandom: 0.05
   largerandom: 0.02
   SuperCrandom: 0.1
-  GoldCoinrandom: 0.33
+  GoldCoinrandom: 0.5
   isTrackingPlayer: 1
   Deathsound: {fileID: 8300000, guid: 768d64c5f45eb9d4b9d77d3ef651e44e, type: 3}
   knife: {fileID: 4301217037307677783, guid: c6586d7bee403754f8423b48ed358662, type: 3}
