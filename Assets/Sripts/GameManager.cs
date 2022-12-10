@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -40,7 +41,7 @@ public class GameManager : MonoBehaviour
         else if (minutes < 10)
         {
             timerText.text = "0" + minutes.ToString() + ":" + seconds.ToString();
-        }
+        }      
     }
 
     private IEnumerator SpawnCoroutineEnemy()
@@ -49,6 +50,7 @@ public class GameManager : MonoBehaviour
 
         while (true)
         {
+            yield return new WaitForSeconds(1f);
             SpawnEnemies(merman, 5);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(merman, 5);

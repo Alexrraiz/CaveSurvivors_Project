@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHPBar : MonoBehaviour
+public class PlayerHpBar_2 : MonoBehaviour
 {
-    [SerializeField] Player player;
+    [SerializeField] Player_2 player2;
     [SerializeField] Image Foreground;
     [SerializeField] public GameObject bar;
     void Update()
     {
-        if (TitleManager.saveData.player_num != 0)
+        if (TitleManager.saveData.player_num != 1)
         {
             bar.SetActive(false);
         }
@@ -18,14 +18,14 @@ public class PlayerHPBar : MonoBehaviour
         {
             bar.SetActive(true);
         }
-        if (player != null)
+        if (player2 != null)
         {
 
             //track player
-            transform.position = player.transform.position + new Vector3(0, -0.75f, 0);
+            transform.position = player2.transform.position + new Vector3(0, -0.75f, 0);
 
             //make hp bar go down as health goes down
-            float hpRatio = (float)player.playerHP / player.MaxplayerHP;
+            float hpRatio = (float)player2.playerHP / player2.MaxplayerHP;
             Foreground.transform.localScale = new Vector3(hpRatio, 1, 1);
         }
 

@@ -13,6 +13,7 @@ public class TitleManager : MonoBehaviour
 {
     [SerializeField] TMP_Text goldcount;
     [SerializeField] Player player;
+    [SerializeField] public GameObject PlayerSelect;
 
     public static SaveData saveData;
 
@@ -66,21 +67,43 @@ public class TitleManager : MonoBehaviour
         }
     }
 
+   
+
     public void Update()
     {
-        goldcount.text = TitleManager.saveData.goldCoins.ToString();
+        goldcount.text = TitleManager.saveData.goldCoins.ToString();        
     }
 
 
 
     public void OnStartButtonClick()
     {
+        PlayerSelect.SetActive(true);       
+    }
+
+    public void OnReturnButtonClick()
+    {
+        PlayerSelect.SetActive(false);
+    }
+
+    public void OnSelectPlayer1()
+    {
+        TitleManager.saveData.player_num = 0;
         SceneManager.LoadScene("Game");
+        Time.timeScale = 1;
+    }
+
+    public void OnSelectPlayer2()
+    {
+        TitleManager.saveData.player_num = 1;
+        SceneManager.LoadScene("Game");
+        Time.timeScale = 1;
     }
 
     public void OnUpgradeButtonClick()
     {
         SceneManager.LoadScene("Upgrade");
+        Time.timeScale = 0;
     }
 
     public void OnQuitButtonClick()
@@ -91,6 +114,7 @@ public class TitleManager : MonoBehaviour
     public void OnMenuButtonClick()
     {
         SceneManager.LoadScene("Title");
+        Time.timeScale = 0;
     }
 
     public void OnHltIncButtonClick()

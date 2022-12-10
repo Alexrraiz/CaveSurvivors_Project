@@ -12,4 +12,5 @@ public class SaveData
     public int goldCoins;
     public int MaxHPincrease;
     public float WPNcooldown;
+    public int player_num;
 }

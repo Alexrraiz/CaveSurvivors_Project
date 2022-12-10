@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] public BaseWeapon[] weapons;
     [SerializeField] public GameObject LevelUpMenu;
-   // [SerializeField] TMP_Text goldcount;
+    [SerializeField] public GameObject player1;
+    // [SerializeField] TMP_Text goldcount;
 
     public float speed;
     public float Currentspeed;
@@ -38,11 +39,12 @@ public class Player : MonoBehaviour
     Animator animator;
     bool isInvincible;
 
-    private void Start()
-    {
+    public virtual void Start()
+    {        
         MaxplayerHP = MaxplayerHP + TitleManager.saveData.MaxHPincrease;
         playerHP = MaxplayerHP;
         animator = GetComponent<Animator>();
+
 
     }
     internal void AddLargeHP()
@@ -76,6 +78,8 @@ public class Player : MonoBehaviour
     }
     public bool ONdamage()
     {
+        
+
         if (!isInvincible)
         {
             StartCoroutine(InvincibilityCoroutine());
@@ -84,6 +88,7 @@ public class Player : MonoBehaviour
             if (--playerHP <= 0)
             {
                 Destroy(gameObject);
+                Time.timeScale = 0;
                 SceneManager.LoadScene("DeathScreen");
 
             }
@@ -101,8 +106,8 @@ public class Player : MonoBehaviour
         isInvincible = false;
     }
    
-    void Update()
-    {        
+    public virtual void Update()
+    {
         float inputX = Input.GetAxisRaw("Horizontal");
         float inputY = Input.GetAxisRaw("Vertical");
         transform.position += new Vector3(inputX, inputY) * speed * Time.deltaTime;
