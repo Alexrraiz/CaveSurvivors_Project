@@ -79,6 +79,7 @@ public class Boss : MonoBehaviour
                 AudioSource.PlayClipAtPoint(Deathsound, transform.position);
                 Instantiate(SuperC, transform.position, Quaternion.identity);
                 Instantiate(largeheal, transform.position, Quaternion.identity);
+                TitleManager.saveData.reaperbosscount++;
 
                 Destroy(gameObject);
             }

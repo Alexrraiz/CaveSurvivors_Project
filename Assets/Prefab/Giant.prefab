@@ -141,6 +141,7 @@ MonoBehaviour:
   largeheal: {fileID: 7426421581170038221, guid: 11167e3e99079214cac430b5418d6aad, type: 3}
   SuperC: {fileID: 3599711858651259685, guid: 35fae91451fe7c64eaf6c398b719017c, type: 3}
   GoldCoin: {fileID: 6562069507300942155, guid: 67f1fe27dab8eec4491fa56aadb9c85c, type: 3}
+  merman: {fileID: 2907761488501732342, guid: 3c76a238f214261449323b194f01eff7, type: 3}
   speed: 1
   player: {fileID: 0}
   spriteRenderer: {fileID: 4666716005901315631}

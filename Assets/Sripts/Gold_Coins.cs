@@ -11,6 +11,7 @@ public class Gold_Coins : MonoBehaviour
         {      
             Destroy(gameObject);
             TitleManager.saveData.goldCoins++;
+            TitleManager.saveData.currentCoins++;
         }
     }
 }

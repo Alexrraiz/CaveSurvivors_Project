@@ -22,6 +22,8 @@ public class PlayerCamera : MonoBehaviour
             {
                 return;
             }
+
+
             var targetPosition = new Vector3(player1.position.x, player1.position.y, -20);
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.unscaledDeltaTime);
         }

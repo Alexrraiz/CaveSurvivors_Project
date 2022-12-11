@@ -24,34 +24,37 @@ public class Giant : Enemy
 
     protected override void Update()
     {
-        switch (giantState)
+        if (player != null)
         {
-            case GiantState.Idle:
-                waitTimer -= Time.deltaTime;
-                if (waitTimer <= 0)
-                {
-                    giantState = GiantState.Chasing;
-                }
-                break;
+            switch (giantState)
+            {
+                case GiantState.Idle:
+                    waitTimer -= Time.deltaTime;
+                    if (waitTimer <= 0)
+                    {
+                        giantState = GiantState.Chasing;
+                    }
+                    break;
 
-            case GiantState.Chasing:
-                base.Update();
-                float distance = Vector3.Distance(transform.position, player.transform.position);
-                animator.SetBool("IsWalking", true);
-                if (distance < 5f)
-                {
-                    giantState = GiantState.Attacking;
-                }
-                break;
+                case GiantState.Chasing:
+                    base.Update();
+                    float distance = Vector3.Distance(transform.position, player.transform.position);
+                    animator.SetBool("IsWalking", true);
+                    if (distance < 5f)
+                    {
+                        giantState = GiantState.Attacking;
+                    }
+                    break;
 
-            case GiantState.Attacking:
-                animator.SetBool("IsWalking", false);
-                animator.SetTrigger("Attack");
-                giantState = GiantState.Idle;
-                waitTimer = 2f;
+                case GiantState.Attacking:
+                    animator.SetBool("IsWalking", false);
+                    animator.SetTrigger("Attack");
+                    giantState = GiantState.Idle;
+                    waitTimer = 2f;
 
-                
-                break;            
+
+                    break;
+            }
         }
 
         

@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject SuperC;
     [SerializeField] GameObject GoldCoin;
 
+    [SerializeField] public GameObject merman;
+
     [SerializeField] float speed = 1f;
     [SerializeField] public GameObject player;    
     [SerializeField] SpriteRenderer spriteRenderer;
@@ -31,10 +33,11 @@ public class Enemy : MonoBehaviour
     protected virtual void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        merman = GameObject.FindGameObjectWithTag("Merman");
         Originalcolor = GetComponent<SpriteRenderer>().color;
     }   
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public virtual void OnTriggerEnter2D(Collider2D collision)
     {
         Player player = collision.GetComponent<Player>();
         if (player)
@@ -43,7 +46,7 @@ public class Enemy : MonoBehaviour
 
             if (player.ONdamage())
             {
-                Destroy(gameObject);
+                return;
             }
         }
 
@@ -87,6 +90,22 @@ public class Enemy : MonoBehaviour
                 {
                     Transform t = Instantiate(GoldCoin).transform;
                     t.position = transform.position;
+                }
+                if (gameObject.tag == "Merman")
+                {
+                    TitleManager.saveData.mermancount++;
+                }
+                if (gameObject.tag == "zombie")
+                {
+                    TitleManager.saveData.zombiecount++;
+                }
+                if (gameObject.tag == "runner")
+                {
+                    TitleManager.saveData.runnercount++;
+                }
+                if (gameObject.tag == "giant")
+                {
+                    TitleManager.saveData.giantcount++;
                 }
                 Destroy(gameObject);
             }

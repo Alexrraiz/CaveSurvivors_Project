@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
             currentExp = 0;
             expTolevel += 5;
             currentlevel++;
+            TitleManager.saveData.lvlcount++;
             Time.timeScale = 0;
             LevelUpMenu.SetActive(true);
         }

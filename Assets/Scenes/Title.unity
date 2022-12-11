@@ -699,7 +699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2474371790006882745, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_text
-      value: "Arikado\n\nHealth: 8 \n\nSpeed: 6"
+      value: "Arikado\n\nHealth: 8 \n\nSpeed: 6\n\nStarting Weapon:\nAxe"
       objectReference: {fileID: 0}
     - target: {fileID: 2474371790006882745, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_fontAsset
@@ -715,7 +715,7 @@ PrefabInstance:
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 2866171431607314364, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -221
+      value: -237
       objectReference: {fileID: 0}
     - target: {fileID: 7637575207140841354, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_Type
@@ -1556,6 +1556,11 @@ PrefabInstance:
         Speed: 5
 
 
+        Starting Weapon:
+
+        Katana
+
+
 
 '
       objectReference: {fileID: 0}
@@ -1577,7 +1582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2866171431607314364, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -251.68
+      value: -265
       objectReference: {fileID: 0}
     - target: {fileID: 7637575207140841354, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_Type

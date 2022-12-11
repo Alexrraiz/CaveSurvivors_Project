@@ -1,0 +1,44 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class DeathScreenManager : MonoBehaviour
+{
+    [SerializeField] TMP_Text mermancount;
+    [SerializeField] TMP_Text zombiecount;
+    [SerializeField] TMP_Text runnercount;
+    [SerializeField] TMP_Text giantcount;
+    [SerializeField] TMP_Text reaperbosscount;
+    [SerializeField] TMP_Text currentgold;
+    [SerializeField] TMP_Text currentlvl;
+
+
+
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        mermancount.text = TitleManager.saveData.mermancount.ToString();
+        zombiecount.text = TitleManager.saveData.zombiecount.ToString();
+        runnercount.text = TitleManager.saveData.runnercount.ToString();
+        giantcount.text = TitleManager.saveData.giantcount.ToString();
+        reaperbosscount.text = TitleManager.saveData.reaperbosscount.ToString();
+        currentgold.text = TitleManager.saveData.currentCoins.ToString();
+        currentlvl.text = TitleManager.saveData.lvlcount.ToString();
+
+
+
+
+
+
+
+    }
+}

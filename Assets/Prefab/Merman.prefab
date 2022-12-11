@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1459894090908244740, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
+      propertyPath: merman
+      value: 
+      objectReference: {fileID: 2907761488501732342}
+    - target: {fileID: 1459894090908244740, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
       propertyPath: enemyHp
       value: 3
       objectReference: {fileID: 0}
@@ -37,7 +41,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3218273498618982243, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
       propertyPath: m_TagString
-      value: merman
+      value: Merman
       objectReference: {fileID: 0}
     - target: {fileID: 3295295393125406864, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
       propertyPath: m_Sprite
@@ -102,14 +106,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3218273498618982243, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
   m_PrefabInstance: {fileID: 356887287403388053}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &2974863587021980677 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 3295295393125406864, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
-  m_PrefabInstance: {fileID: 356887287403388053}
-  m_PrefabAsset: {fileID: 0}
 --- !u!95 &4296894046004840504
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -122,7 +121,13 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &2974863587021980677 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3295295393125406864, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
+  m_PrefabInstance: {fileID: 356887287403388053}
+  m_PrefabAsset: {fileID: 0}

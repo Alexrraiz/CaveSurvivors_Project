@@ -71,7 +71,7 @@ public class TitleManager : MonoBehaviour
 
     public void Update()
     {
-        goldcount.text = TitleManager.saveData.goldCoins.ToString();        
+        goldcount.text = TitleManager.saveData.goldCoins.ToString();
     }
 
 
@@ -115,6 +115,13 @@ public class TitleManager : MonoBehaviour
     {
         SceneManager.LoadScene("Title");
         Time.timeScale = 0;
+        TitleManager.saveData.runnercount = 0;
+        TitleManager.saveData.mermancount= 0;
+        TitleManager.saveData.zombiecount= 0;
+        TitleManager.saveData.giantcount= 0;
+        TitleManager.saveData.reaperbosscount= 0;
+        TitleManager.saveData.currentCoins= 0;
+        TitleManager.saveData.lvlcount= 0;
     }
 
     public void OnHltIncButtonClick()
