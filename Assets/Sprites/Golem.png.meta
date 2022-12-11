@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: e81fcd4ae3b4fed479673674ac4bfcac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golem1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef710fb1f2368f64388dd0d55cb2c4ed
+      internalID: -922997125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 264
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c68276b3ae7464a9307ad949938489
+      internalID: 419157864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 265
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8f9284b99121948bfa19defe121408
+      internalID: -2096400056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 258
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0fd3eb403f4b74a88513aa662f7259
+      internalID: 1511952047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 243
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae84e0d737b7244d875119e7c98a858
+      internalID: -2108523167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 79
+        width: 235
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2dbc6ee59ddb74d940d914f860a77b
+      internalID: -1769221354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 191
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f385d111c71304c8e1bf689cbe1e45
+      internalID: 2077105343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 191
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cb127c52b8f7049bfa0d087c4b143b
+      internalID: 1149482402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 191
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2991c0cf5e4e3f74ea9a3888316a9afb
+      internalID: -681503718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 191
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27563e7bab64dd74ea92d72bac525b85
+      internalID: 6704716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 191
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc570074bd88a79439f0202889d9eb39
+      internalID: -531815757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 191
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a665e7e2e49a74993a2b37cfba0f68
+      internalID: -1574909093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 191
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba06d94cbdc48be47a68c96e8c36a20b
+      internalID: -1858829137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 154
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe212fa6634b07f48be962d6ff835b10
+      internalID: 701185002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 153
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bccb39117b22c4ca5090bfe2c986fe
+      internalID: 90124476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 152
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4360c83bec7db9f4f834e31e8284d0e2
+      internalID: -1853355615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 153
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7288e4b204b0f154282a90b1e042bd22
+      internalID: 479350871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 155
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ab569330257894e9e2e05a705ab1db
+      internalID: -1823044331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 151
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11932e7df0b2803458de8d754707aeb7
+      internalID: 1724781847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 153
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a525721276b0a14599e6faf4bfbb7ef
+      internalID: -1149105964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 86
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c0f49547078d74eadaafd84bf837c8
+      internalID: -721799989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 86
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce65ce8bac9b3b447a4ff685edfa7d10
+      internalID: -748563429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 86
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d6a9800af4fff468fac1000e375b1a
+      internalID: 649056333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 72
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b70350fd2dd3e848b5546fc29610ff0
+      internalID: 1463800784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 99
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188ac6e24927ac046b657d7f1f7824d2
+      internalID: 644657702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 86
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a65dd0a6610784296aa5f3627eba08
+      internalID: 424591980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 12
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64d657c979a09a40980b3e775d15064
+      internalID: -1522312201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e88f72fbbb18b48a688be663035ded
+      internalID: 352755436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 62
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce092640aecb2144802227ab67f1442
+      internalID: -1378172138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25e3c3bb488b374eb7acf52debf5091
+      internalID: -343409700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 13
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca203ac24d024643a9e6c2205b26490
+      internalID: 917044521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 12
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017cd439ca872d547be7fee9617e38fd
+      internalID: -107502295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 13
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b352dbb04a94d46a60e8ce0f904f4d
+      internalID: 1130510830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 12
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fb1f0c10c03c344bf8422ced0616cd
+      internalID: -382016094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 13
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68d02a2bd77b8d4881a801c3f51a86c
+      internalID: 1693197091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 13
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8125f4eaac9811149a96cb6fe8a91a73
+      internalID: 1790690953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 13
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd20e1b7d24e242a32cc69d3750a05
+      internalID: 1519889499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golem1-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 12
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce1c4684871ed54ea93e3e77744d8cb
+      internalID: -1508199361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      golem1-removebg-preview_27: 352755436
+      golem1-removebg-preview_35: 1790690953
+      golem1-removebg-preview_32: 1130510830
+      golem1-removebg-preview_34: 1693197091
+      golem1-removebg-preview_25: 424591980
+      golem1-removebg-preview_7: 1149482402
+      golem1-removebg-preview_24: 644657702
+      golem1-removebg-preview_4: -2108523167
+      golem1-removebg-preview_6: 2077105343
+      golem1-removebg-preview_13: 701185002
+      golem1-removebg-preview_18: 1724781847
+      golem1-removebg-preview_5: -1769221354
+      golem1-removebg-preview_20: -721799989
+      golem1-removebg-preview_8: -681503718
+      golem1-removebg-preview_9: 6704716
+      golem1-removebg-preview_10: -531815757
+      golem1-removebg-preview_12: -1858829137
+      golem1-removebg-preview_11: -1574909093
+      golem1-removebg-preview_3: 1511952047
+      golem1-removebg-preview_0: -922997125
+      golem1-removebg-preview_15: -1853355615
+      golem1-removebg-preview_17: -1823044331
+      golem1-removebg-preview_29: -343409700
+      golem1-removebg-preview_31: -107502295
+      golem1-removebg-preview_30: 917044521
+      golem1-removebg-preview_37: -1508199361
+      golem1-removebg-preview_1: 419157864
+      golem1-removebg-preview_16: 479350871
+      golem1-removebg-preview_23: 1463800784
+      golem1-removebg-preview_21: -748563429
+      golem1-removebg-preview_26: -1522312201
+      golem1-removebg-preview_2: -2096400056
+      golem1-removebg-preview_28: -1378172138
+      golem1-removebg-preview_14: 90124476
+      golem1-removebg-preview_36: 1519889499
+      golem1-removebg-preview_22: 649056333
+      golem1-removebg-preview_33: -382016094
+      golem1-removebg-preview_19: -1149105964
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

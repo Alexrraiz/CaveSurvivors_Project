@@ -121,7 +121,7 @@ public class TitleManager : MonoBehaviour
         TitleManager.saveData.giantcount= 0;
         TitleManager.saveData.reaperbosscount= 0;
         TitleManager.saveData.currentCoins= 0;
-        TitleManager.saveData.lvlcount= 0;
+        TitleManager.saveData.lvlcount= 0;  
     }
 
     public void OnHltIncButtonClick()
