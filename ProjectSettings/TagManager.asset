@@ -11,6 +11,11 @@ TagManager:
   - Axe
   - giant
   - Merman
+  - acher
+  - ghost
+  - golem
+  - assassin
+  - necromancer
   layers:
   - Default
   - TransparentFX

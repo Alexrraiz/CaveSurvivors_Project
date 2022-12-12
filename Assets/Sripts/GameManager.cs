@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(10f);
             SpawnEnemies(zombie, 5);
             SpawnEnemies(runner, 5);
+            SpawnBoss(Boss_Reaper, 1);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(runner, 5);
             SpawnEnemies(merman, 5);
@@ -68,7 +69,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(10f);
             SpawnEnemies(merman, 5);
             SpawnEnemies(runner, 5);
-            SpawnEnemies(zombie, 5);     
+            SpawnEnemies(zombie, 5);
             SpawnEnemies(giant, 3);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(merman, 10);
@@ -155,7 +156,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(20f);
 
         }
-        
+
     }
 
     void SpawnEnemies(GameObject enemyPrefab, int numberOfEnemies, bool isTracking = true)

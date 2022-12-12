@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] public BaseWeapon[] weapons;
     [SerializeField] public GameObject LevelUpMenu;
-    [SerializeField] public GameObject player1;
     // [SerializeField] TMP_Text goldcount;
 
     public float speed;

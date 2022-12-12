@@ -7912,7 +7912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020981, y: 389}
+  m_AnchoredPosition: {x: 0.000020981, y: 411.11}
   m_SizeDelta: {x: 1920, y: 31.104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004091457
@@ -9019,6 +9019,8 @@ MonoBehaviour:
   goldcount: {fileID: 1652252170}
   player: {fileID: 60652647}
   PlayerSelect: {fileID: 0}
+  GameSelect: {fileID: 0}
+  Game2: {fileID: 0}
 --- !u!4 &1523266058
 Transform:
   m_ObjectHideFlags: 0

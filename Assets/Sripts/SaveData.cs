@@ -19,5 +19,11 @@ public class SaveData
     public int zombiecount;
     public int runnercount;
     public int giantcount;
+    public int archercount;
+    public int ghostcount;
+    public int assassincount;
+    public int golemcount;
     public int reaperbosscount;
+    public int necrobosscount;
+    public bool cleargame1 = false;
 }

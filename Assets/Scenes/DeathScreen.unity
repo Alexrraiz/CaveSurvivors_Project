@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 87053360}
   - component: {fileID: 87053359}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: assassin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 115818793}
   - component: {fileID: 115818792}
   m_Layer: 5
-  m_Name: boss (1)
+  m_Name: necromancer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2545605848041904420, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
+  m_Sprite: {fileID: -894379299, guid: 8c5b51a557951d94ba4b60b65efd7340, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1565,7 +1565,7 @@ GameObject:
   - component: {fileID: 401500251}
   - component: {fileID: 401500250}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: necromancer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1700,7 +1700,7 @@ GameObject:
   - component: {fileID: 443435444}
   - component: {fileID: 443435443}
   m_Layer: 5
-  m_Name: runner (1)
+  m_Name: ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1747,7 +1747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2545605848041904420, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
+  m_Sprite: {fileID: 346627534, guid: 8d0ca7e5b733af94ba34aa8284500d98, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1952,6 +1952,11 @@ MonoBehaviour:
   zombiecount: {fileID: 189263161}
   runnercount: {fileID: 958879834}
   giantcount: {fileID: 735850910}
+  golemcount: {fileID: 557422965}
+  assassincount: {fileID: 87053359}
+  archercount: {fileID: 907132850}
+  ghostcount: {fileID: 649908787}
+  necrobosscount: {fileID: 401500250}
   reaperbosscount: {fileID: 14960680}
   currentgold: {fileID: 1331871620}
   currentlvl: {fileID: 1219117042}
@@ -1982,7 +1987,7 @@ GameObject:
   - component: {fileID: 557422966}
   - component: {fileID: 557422965}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: golem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2117,7 +2122,7 @@ GameObject:
   - component: {fileID: 649908788}
   - component: {fileID: 649908787}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2836,7 +2841,7 @@ GameObject:
   - component: {fileID: 907132851}
   - component: {fileID: 907132850}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: acher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3260,7 +3265,7 @@ GameObject:
   - component: {fileID: 1123339938}
   - component: {fileID: 1123339937}
   m_Layer: 5
-  m_Name: giant (1)
+  m_Name: archer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3307,7 +3312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2545605848041904420, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
+  m_Sprite: {fileID: -2046164697, guid: c840a766067049346a41810de0b01cb2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3405,7 +3410,7 @@ GameObject:
   - component: {fileID: 1172126720}
   - component: {fileID: 1172126719}
   m_Layer: 5
-  m_Name: zombie (1)
+  m_Name: golem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3452,7 +3457,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2545605848041904420, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
+  m_Sprite: {fileID: -343409700, guid: e81fcd4ae3b4fed479673674ac4bfcac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3841,7 +3846,7 @@ GameObject:
   - component: {fileID: 1836824318}
   - component: {fileID: 1836824317}
   m_Layer: 5
-  m_Name: merman (1)
+  m_Name: assassin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3888,7 +3893,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2545605848041904420, guid: 7ead8ba5dc6d79f4da1cc2f449bde712, type: 3}
+  m_Sprite: {fileID: -1848227999, guid: b56072bbf6786a240864073ca989ad62, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

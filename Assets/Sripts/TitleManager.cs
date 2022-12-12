@@ -14,6 +14,9 @@ public class TitleManager : MonoBehaviour
     [SerializeField] TMP_Text goldcount;
     [SerializeField] Player player;
     [SerializeField] public GameObject PlayerSelect;
+    [SerializeField] public GameObject GameSelect;
+    [SerializeField] public GameObject Game2;
+
 
     public static SaveData saveData;
 
@@ -86,18 +89,51 @@ public class TitleManager : MonoBehaviour
         PlayerSelect.SetActive(false);
     }
 
+    public void OnReturn2ButtonClick()
+    {
+        GameSelect.SetActive(false);
+    }
+
     public void OnSelectPlayer1()
     {
         TitleManager.saveData.player_num = 0;
-        SceneManager.LoadScene("Game");
-        Time.timeScale = 1;
+        GameSelect.SetActive(true);
+        if (TitleManager.saveData.cleargame1 == false)
+        {
+            Game2.SetActive(false);
+        }
+        else
+        {
+            Game2.SetActive(true);
+        }
     }
 
     public void OnSelectPlayer2()
     {
         TitleManager.saveData.player_num = 1;
+        GameSelect.SetActive(true);
+        if (TitleManager.saveData.cleargame1 == false)
+        {
+            Game2.SetActive(false);
+        }
+        else
+        {
+            Game2.SetActive(true);
+        }
+
+    }
+
+    public void OnSelectGame1()
+    {
         SceneManager.LoadScene("Game");
         Time.timeScale = 1;
+    }
+
+    public void OnSelectGame2()
+    {
+        SceneManager.LoadScene("Game_2");
+        Time.timeScale = 1;
+        TitleManager.saveData.cleargame1= false;
     }
 
     public void OnUpgradeButtonClick()
@@ -121,7 +157,12 @@ public class TitleManager : MonoBehaviour
         TitleManager.saveData.giantcount= 0;
         TitleManager.saveData.reaperbosscount= 0;
         TitleManager.saveData.currentCoins= 0;
-        TitleManager.saveData.lvlcount= 0;  
+        TitleManager.saveData.lvlcount= 0; 
+        TitleManager.saveData.assassincount= 0;
+        TitleManager.saveData.ghostcount = 0;
+        TitleManager.saveData.golemcount = 0;
+        TitleManager.saveData.archercount = 0;
+        TitleManager.saveData.necrobosscount = 0;
     }
 
     public void OnHltIncButtonClick()

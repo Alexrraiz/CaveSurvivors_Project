@@ -43,6 +43,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Necromancer_Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 3218273498618982243, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
+      propertyPath: m_TagString
+      value: necromancer
+      objectReference: {fileID: 0}
     - target: {fileID: 3295295393125406864, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
       propertyPath: m_FlipX
       value: 1

@@ -9,6 +9,11 @@ public class DeathScreenManager : MonoBehaviour
     [SerializeField] TMP_Text zombiecount;
     [SerializeField] TMP_Text runnercount;
     [SerializeField] TMP_Text giantcount;
+    [SerializeField] TMP_Text golemcount;
+    [SerializeField] TMP_Text assassincount;
+    [SerializeField] TMP_Text archercount;
+    [SerializeField] TMP_Text ghostcount;
+    [SerializeField] TMP_Text necrobosscount;
     [SerializeField] TMP_Text reaperbosscount;
     [SerializeField] TMP_Text currentgold;
     [SerializeField] TMP_Text currentlvl;
@@ -33,12 +38,10 @@ public class DeathScreenManager : MonoBehaviour
         reaperbosscount.text = TitleManager.saveData.reaperbosscount.ToString();
         currentgold.text = TitleManager.saveData.currentCoins.ToString();
         currentlvl.text = TitleManager.saveData.lvlcount.ToString();
-
-
-
-
-
-
-
+        golemcount.text = TitleManager.saveData.golemcount.ToString();
+        ghostcount.text = TitleManager.saveData.ghostcount.ToString();
+        assassincount.text = TitleManager.saveData.assassincount.ToString();
+        archercount.text = TitleManager.saveData.archercount.ToString();
+        necrobosscount.text = TitleManager.saveData.necrobosscount.ToString();
     }
 }

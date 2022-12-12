@@ -107,6 +107,26 @@ public class Enemy : MonoBehaviour
                 {
                     TitleManager.saveData.giantcount++;
                 }
+                if (gameObject.tag == "acher")
+                {
+                    TitleManager.saveData.archercount++;
+                }
+                if (gameObject.tag == "ghost")
+                {
+                    TitleManager.saveData.ghostcount++;
+                }
+                if (gameObject.tag == "assassin")
+                {
+                    TitleManager.saveData.assassincount++;
+                }
+                if (gameObject.tag == "golem")
+                {
+                    TitleManager.saveData.golemcount++;
+                }
+                if (gameObject.tag == "necromancer")
+                {
+                    TitleManager.saveData.necrobosscount++;
+                }
                 Destroy(gameObject);
             }
             //enemy takes damage
