@@ -139,7 +139,7 @@ MonoBehaviour:
   GoldCoinrandom: 0.358
   isTrackingPlayer: 1
   Deathsound: {fileID: 8300000, guid: 768d64c5f45eb9d4b9d77d3ef651e44e, type: 3}
-  arrow: {fileID: 2489901564759778734, guid: 97e3e18af0a426f4fa4f13f2434d960b, type: 3}
+  arrow: {fileID: 1485152300151057452, guid: 23a7993fa0060ac4987d1f272ab40eba, type: 3}
 --- !u!212 &5866740892558756048 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3295295393125406864, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
