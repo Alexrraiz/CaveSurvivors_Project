@@ -22,6 +22,10 @@ public class PlayerCamera2 : MonoBehaviour
             {
                 return;
             }
+            if (player2 == null)
+            {
+                return;
+            }
 
 
             var targetPosition = new Vector3(player1.position.x, player1.position.y, -20);
@@ -33,6 +37,11 @@ public class PlayerCamera2 : MonoBehaviour
             player_1.SetActive(false);
 
             if (player2 == null)
+            {
+                return;
+            }
+
+            if (player1 == null)
             {
                 return;
             }
