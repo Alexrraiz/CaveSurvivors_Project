@@ -617,6 +617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Damage_Increase
       objectReference: {fileID: 0}
+    - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
 --- !u!224 &309886930 stripped
@@ -655,6 +659,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldcount: {fileID: 1924442913}
   player: {fileID: 0}
+  PlayerSelect: {fileID: 0}
+  GameSelect: {fileID: 0}
+  Game2: {fileID: 0}
 --- !u!4 &523816610
 Transform:
   m_ObjectHideFlags: 0
@@ -831,6 +838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Area_of_Effect
       objectReference: {fileID: 0}
+    - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
 --- !u!224 &965657722 stripped
@@ -869,7 +880,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b970cd59d9bc22241a79422f1b1da1a7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1179,6 +1190,10 @@ PrefabInstance:
     - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_Name
       value: Crit_Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
@@ -1766,6 +1781,10 @@ PrefabInstance:
     - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
       propertyPath: m_Name
       value: Crit_Chance
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001971120769475108, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce4326c5cfdc534ead534d6b7f780d2, type: 3}

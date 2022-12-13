@@ -52,6 +52,9 @@ public class GameManager1 : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1f);
+            
+
+
             SpawnEnemies(golem, 5);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(ghost, 5);

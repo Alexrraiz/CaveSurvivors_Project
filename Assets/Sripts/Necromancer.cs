@@ -24,7 +24,6 @@ public class Necromancer : Enemy
     NecroState necroState = NecroState.Idle;
     float waitTimer = 2f;
     float MaxHp;
-    bool summon = true;
     protected override void Start()
     {
         MaxHp = enemyHp;
@@ -57,10 +56,9 @@ public class Necromancer : Enemy
                     }
 
                     float bossHalfHp = MaxHp / 2;
-                    if  (enemyHp == bossHalfHp && summon == true)
+                    if  (enemyHp <= bossHalfHp)
                     {
-                        necroState= NecroState.Summoning;
-                        summon = false;
+                        necroState= NecroState.Summoning;                       
                     }
                    
 
@@ -77,7 +75,7 @@ public class Necromancer : Enemy
                     animator.SetBool("IsWalking", false);
                     animator.SetTrigger("Summon");
                     necroState = NecroState.Idle;
-                    waitTimer = 2f;
+                    waitTimer = 7f;
 
                     break;
             }
@@ -108,9 +106,9 @@ public class Necromancer : Enemy
 
     public void SummonEnemy()
     {
-        SpawnEnemies(archer, 3);
-        SpawnEnemies(assassin, 5);
-        SpawnEnemies(golem, 5);
+        SpawnEnemies(archer, 2);
+        SpawnEnemies(assassin, 3);
+        SpawnEnemies(golem, 3);
         SpawnEnemies(ghost, 2);
     }
 

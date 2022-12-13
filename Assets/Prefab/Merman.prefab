@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1459894090908244740, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
+      propertyPath: pool
+      value: 
+      objectReference: {fileID: 5121283798717405593, guid: 249a3901d3b2d4f48adcf216f10b0ffc, type: 3}
+    - target: {fileID: 1459894090908244740, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
       propertyPath: merman
       value: 
       objectReference: {fileID: 2907761488501732342}

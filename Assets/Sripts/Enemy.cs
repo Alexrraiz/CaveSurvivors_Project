@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject largeheal;
     [SerializeField] GameObject SuperC;
     [SerializeField] GameObject GoldCoin;
+    //[SerializeField] public ObjectPool pool;
 
     [SerializeField] public GameObject merman;
 
@@ -71,10 +72,16 @@ public class Enemy : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(Deathsound, transform.position);
                 Instantiate(crystalPrefab, transform.position, Quaternion.identity);
+                //var crystalPrefab = pool.GetObject();
+                //crystalPrefab.transform.position = transform.position;
+                //crystalPrefab.SetActive(true);
                 if (Random.value < smallrandom)
                 {
                     Transform t = Instantiate(smallheal).transform;
                     t.position = transform.position;
+                    //var smallheal = pool.GetObject();
+                    //smallheal.transform.position = transform.position;
+                    //smallheal.SetActive(true);
                 }
                 if (Random.value < largerandom)
                 {
@@ -90,6 +97,10 @@ public class Enemy : MonoBehaviour
                 {
                     Transform t = Instantiate(GoldCoin).transform;
                     t.position = transform.position;
+                    //var GoldCoin = pool.GetObject();
+                    //GoldCoin.transform.position = transform.position;
+                    //GoldCoin.SetActive(true);
+
                 }
                 if (gameObject.tag == "Merman")
                 {
