@@ -107,7 +107,8 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.121146
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1459894090908244740, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 429100f720e90cb498fed02f039a7a7a, type: 3}
 --- !u!212 &5259099400459850917 stripped
 SpriteRenderer:
@@ -139,3 +140,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-1525570330254952246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5327393369518072662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d562b1f9bd1e874fbce9877c295121f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crystalPrefab: {fileID: 8467967525082901951, guid: 5f29ae166e7733e4b8bd790e524c2114, type: 3}
+  smallheal: {fileID: 1115887961151455317, guid: bc3eb6d48d3dc274f81600021990e3f3, type: 3}
+  largeheal: {fileID: 7426421581170038221, guid: 11167e3e99079214cac430b5418d6aad, type: 3}
+  SuperC: {fileID: 3599711858651259685, guid: 35fae91451fe7c64eaf6c398b719017c, type: 3}
+  GoldCoin: {fileID: 6562069507300942155, guid: 67f1fe27dab8eec4491fa56aadb9c85c, type: 3}
+  merman: {fileID: 0}
+  speed: 2.5
+  player: {fileID: 0}
+  spriteRenderer: {fileID: 5259099400459850917}
+  enemyHp: 15
+  smallrandom: 1
+  largerandom: 1
+  SuperCrandom: 1
+  GoldCoinrandom: 1
+  isTrackingPlayer: 1
+  Deathsound: {fileID: 8300000, guid: 61707ed2bbbff2147aadc8cf47142979, type: 3}
+  orb: {fileID: 891950023897923737, guid: d8baf205ff3f44c4faec5d05e91fd439, type: 3}
+  assassin: {fileID: 6522826201848864655, guid: 1aa540eee2908f44590d23e08b4b2bd0, type: 3}
+  ghost: {fileID: 4600076883864127592, guid: 2dc6ea91f7aaf6546bbc4ed64c22fcd8, type: 3}
+  golem: {fileID: 278188789875225586, guid: c98cb44c5711f794288383d442577ad8, type: 3}
+  archer: {fileID: 5798523897837879075, guid: d8d2fe0b7872739489e8f043e7a467cc, type: 3}

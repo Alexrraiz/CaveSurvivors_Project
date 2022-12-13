@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float speed = 1f;
     [SerializeField] public GameObject player;    
     [SerializeField] SpriteRenderer spriteRenderer;
-    [SerializeField] float enemyHp = 3f;
+    [SerializeField] public float enemyHp = 3f;
     [SerializeField] [Range(0f, 1f)] float smallrandom = 1f;
     [SerializeField] [Range(0f, 1f)] float largerandom = 1f;
     [SerializeField] [Range(0f, 1f)] float SuperCrandom = 1f;

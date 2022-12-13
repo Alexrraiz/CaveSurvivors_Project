@@ -13,7 +13,7 @@ public class GameManager1 : MonoBehaviour
     [SerializeField] GameObject ghost;
     [SerializeField] GameObject golem;
     [SerializeField] GameObject archer;
-    [SerializeField] GameObject Boss_Titan;
+    [SerializeField] GameObject necromancer;
 
     private void Start()
     {
@@ -69,7 +69,7 @@ public class GameManager1 : MonoBehaviour
             SpawnEnemies(golem, 5);
             SpawnEnemies(archer, 3);
             yield return new WaitForSeconds(10f);
-            SpawnBoss(Boss_Titan, 1);
+            SpawnEnemies(necromancer, 1);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(golem, 8);
             yield return new WaitForSeconds(10f);
@@ -86,7 +86,7 @@ public class GameManager1 : MonoBehaviour
             SpawnEnemies(golem, 8);
             SpawnEnemies(archer, 4);
             yield return new WaitForSeconds(10f);
-            SpawnBoss(Boss_Titan, 2);
+            SpawnEnemies(necromancer, 2);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(golem, 15);
             yield return new WaitForSeconds(10f);
@@ -104,7 +104,7 @@ public class GameManager1 : MonoBehaviour
             SpawnEnemies(golem, 10);
             SpawnEnemies(archer, 7);
             yield return new WaitForSeconds(10f);
-            SpawnBoss(Boss_Titan, 3);
+            SpawnEnemies(necromancer, 3);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(golem, 17);
             yield return new WaitForSeconds(10f);
@@ -122,7 +122,7 @@ public class GameManager1 : MonoBehaviour
             SpawnEnemies(golem, 12);
             SpawnEnemies(archer, 10);
             yield return new WaitForSeconds(10f);
-            SpawnBoss(Boss_Titan, 4);
+            SpawnEnemies(necromancer, 4);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(golem, 20);
             yield return new WaitForSeconds(10f);
@@ -138,7 +138,7 @@ public class GameManager1 : MonoBehaviour
             SpawnEnemies(golem, 20);
             SpawnEnemies(archer, 15);
             yield return new WaitForSeconds(10f);
-            SpawnBoss(Boss_Titan, 5);
+            SpawnEnemies(necromancer, 5);
             yield return new WaitForSeconds(20f);
 
         }

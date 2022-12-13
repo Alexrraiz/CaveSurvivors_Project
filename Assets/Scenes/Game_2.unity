@@ -602,7 +602,7 @@ MonoBehaviour:
   ghost: {fileID: 4600076883864127592, guid: 2dc6ea91f7aaf6546bbc4ed64c22fcd8, type: 3}
   golem: {fileID: 278188789875225586, guid: c98cb44c5711f794288383d442577ad8, type: 3}
   archer: {fileID: 5798523897837879075, guid: d8d2fe0b7872739489e8f043e7a467cc, type: 3}
-  Boss_Titan: {fileID: 5327393369518072662, guid: 9649478d9a26f4a47b46f31cce33db5d, type: 3}
+  necromancer: {fileID: 5327393369518072662, guid: 9649478d9a26f4a47b46f31cce33db5d, type: 3}
 --- !u!4 &205602102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8799395605966565337, guid: 0731f9d2c5e782d40bd3704b04058711, type: 3}
@@ -2892,6 +2892,7 @@ MonoBehaviour:
   player: {fileID: 772648586}
   PlayerSelect: {fileID: 0}
   GameSelect: {fileID: 0}
+  Game2: {fileID: 0}
 --- !u!1001 &1054483443
 PrefabInstance:
   m_ObjectHideFlags: 0
