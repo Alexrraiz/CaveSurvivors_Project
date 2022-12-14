@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -13,10 +15,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject zombie;
     [SerializeField] GameObject giant;
     [SerializeField] GameObject Boss_Reaper;
+
+    internal PostProcessVolume volume;
         
     private void Start()
     {
         StartCoroutine(SpawnCoroutineEnemy());
+        volume = Camera.main.GetComponent<PostProcessVolume>();
+        volume.enabled = PostProcessingManager.postProcessing;
     }
 
     private void Update()
@@ -60,8 +66,7 @@ public class GameManager : MonoBehaviour
             SpawnEnemies(giant, 1);
             yield return new WaitForSeconds(10f);
             SpawnEnemies(zombie, 5);
-            SpawnEnemies(runner, 5);
-            SpawnBoss(Boss_Reaper, 1);
+            SpawnEnemies(runner, 5);            
             yield return new WaitForSeconds(10f);
             SpawnEnemies(runner, 5);
             SpawnEnemies(merman, 5);

@@ -129,7 +129,7 @@ MonoBehaviour:
   currentspeed: 2
   player: {fileID: 0}
   spriteRenderer: {fileID: 1369123299878785463}
-  bossHp: 25
+  bossHp: 30
   isTrackingPlayer: 1
   Deathsound: {fileID: 8300000, guid: 61707ed2bbbff2147aadc8cf47142979, type: 3}
   animator: {fileID: 0}

@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPool : MonoBehaviour
+public class ExpObjectPool : MonoBehaviour
 {
-    [SerializeField] GameObject scythe;
-    //[SerializeField] GameObject exporb;
-    //[SerializeField] GameObject goldcoin;
+    [SerializeField] GameObject exporb;
 
 
 
@@ -17,9 +15,9 @@ public class ObjectPool : MonoBehaviour
     {
         for (int i = 0; i < 150; i++)
         {
-            pooledObjects.Add(Instantiate(scythe));
-            //pooledObjects.Add(Instantiate(exporb));
-            //pooledObjects.Add(Instantiate(goldcoin));
+            
+            pooledObjects.Add(Instantiate(exporb));
+            
         }
     }
 

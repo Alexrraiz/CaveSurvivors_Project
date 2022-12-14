@@ -5,9 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
-
-
-
+using UnityEngine.Rendering.PostProcessing;
 
 public class Player : MonoBehaviour
 {   
@@ -15,7 +13,6 @@ public class Player : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] public BaseWeapon[] weapons;
     [SerializeField] public GameObject LevelUpMenu;
-    // [SerializeField] TMP_Text goldcount;
 
     public float speed;
     public float Currentspeed;
@@ -39,12 +36,10 @@ public class Player : MonoBehaviour
     bool isInvincible;
 
     public virtual void Start()
-    {        
+    {
         MaxplayerHP = MaxplayerHP + TitleManager.saveData.MaxHPincrease;
         playerHP = MaxplayerHP;
         animator = GetComponent<Animator>();
-
-
     }
     internal void AddLargeHP()
     {
@@ -135,5 +130,5 @@ public class Player : MonoBehaviour
         animator.SetBool("IsRunning", isRunning);
         
        // goldcount.text = TitleManager.saveData.goldCoins.ToString();
-    }
+    }    
 }

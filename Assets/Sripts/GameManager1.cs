@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 public class GameManager1 : MonoBehaviour
@@ -15,9 +17,12 @@ public class GameManager1 : MonoBehaviour
     [SerializeField] GameObject archer;
     [SerializeField] GameObject necromancer;
 
+    internal PostProcessVolume volume;
     private void Start()
     {
         StartCoroutine(SpawnCoroutineEnemy());
+        volume = Camera.main.GetComponent<PostProcessVolume>();
+        volume.enabled = PostProcessingManager.postProcessing;
     }
 
     private void Update()

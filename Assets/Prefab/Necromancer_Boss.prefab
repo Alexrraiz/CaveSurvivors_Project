@@ -161,7 +161,7 @@ MonoBehaviour:
   speed: 2.5
   player: {fileID: 0}
   spriteRenderer: {fileID: 5259099400459850917}
-  enemyHp: 10
+  enemyHp: 15
   smallrandom: 1
   largerandom: 1
   SuperCrandom: 1

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PlayerCamera2 : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class PlayerCamera2 : MonoBehaviour
     [SerializeField] public GameObject player_2;
     [SerializeField] public float speed = 5f;
 
-
+    
     private void Update()
     {
         if (TitleManager.saveData.player_num == 0)

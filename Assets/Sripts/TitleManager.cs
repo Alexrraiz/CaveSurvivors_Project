@@ -15,6 +15,7 @@ public class TitleManager : MonoBehaviour
     [SerializeField] Player player;
     [SerializeField] public GameObject PlayerSelect;
     [SerializeField] public GameObject GameSelect;
+    [SerializeField] public GameObject Options;
     [SerializeField] public GameObject Game2;
 
 
@@ -84,6 +85,11 @@ public class TitleManager : MonoBehaviour
         PlayerSelect.SetActive(true);       
     }
 
+    public void OnOptionsButtonClick()
+    {
+        Options.SetActive(true);
+    }
+
     public void OnReturnButtonClick()
     {
         PlayerSelect.SetActive(false);
@@ -92,6 +98,11 @@ public class TitleManager : MonoBehaviour
     public void OnReturn2ButtonClick()
     {
         GameSelect.SetActive(false);
+    }
+
+    public void OnReturn3ButtonClick()
+    {
+        Options.SetActive(false);
     }
 
     public void OnSelectPlayer1()

@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject SuperC;
     [SerializeField] GameObject GoldCoin;
     //[SerializeField] public ObjectPool pool;
+    //public ExpObjectPool expPool;
 
     [SerializeField] public GameObject merman;
 
@@ -72,9 +73,9 @@ public class Enemy : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(Deathsound, transform.position);
                 Instantiate(crystalPrefab, transform.position, Quaternion.identity);
-                //var crystalPrefab = pool.GetObject();
-                //crystalPrefab.transform.position = transform.position;
+                //var crystalPrefab = expPool.GetObject();
                 //crystalPrefab.SetActive(true);
+                //crystalPrefab.transform.position = transform.position;
                 if (Random.value < smallrandom)
                 {
                     Transform t = Instantiate(smallheal).transform;
@@ -138,6 +139,7 @@ public class Enemy : MonoBehaviour
                 {
                     TitleManager.saveData.necrobosscount++;
                 }
+                
                 Destroy(gameObject);
             }
             //enemy takes damage
